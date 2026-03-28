@@ -30,7 +30,7 @@ jobs:
           context: .
           file: Dockerfile.backend
           push: true
-          tags: ghcr.io/${{ github.repository }}/backend:latest
+          tags: ghcr.io/${{ github.repository_owner }}/city-flow-backend:latest
 
       - name: Build and push frontend
         uses: docker/build-push-action@v5
@@ -38,4 +38,4 @@ jobs:
           context: .
           file: Dockerfile.frontend
           push: true
-          tags: ghcr.io/${{ github.repository }}/frontend:latest
+          tags: ghcr.io/${{ github.repository_owner }}/city-flow-frontend:latest
