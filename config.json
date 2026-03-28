@@ -1,0 +1,21 @@
+{
+  "paths": {
+    "trips_csv": "data/raw/Shared_Micromobility_Vehicle_Trips__2018-2022_.csv",
+    "weather_json": "data/raw/weather/weather_hourly.json",
+    "output_csv": "data/processed/dataset_final.csv",
+    "output_report": "data/processed/data_quality_report.json",
+    "logs_dir": "logs"
+  },
+  "weather": {
+    "latitude": 30.2672,
+    "longitude": -97.7431,
+    "start_date": "2018-01-01",
+    "end_date": "2022-12-31"
+  },
+  "cleaning": {
+    "min_trip_duration_s": 60,
+    "max_trip_duration_s": 2500,
+    "min_trip_distance_m": 100,
+    "max_trip_distance_m": 6800
+  }
+}

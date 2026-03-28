@@ -1,0 +1,35 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Data
+data/
+mlruns/
+mlflow.db
+cityflow.db
+
+# Logs
+logs/
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+
+# Env
+.env
+
+# Tests
+.pytest_cache/
+test_cityflow.db
+
+# Docs
+HANDOFF.md
+handoff.md
+PRESENTATION.md
+presentation.md
+implementation_tasks.md
