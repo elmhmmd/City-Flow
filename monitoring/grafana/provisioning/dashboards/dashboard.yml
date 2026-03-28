@@ -1,0 +1,7 @@
+apiVersion: 1
+providers:
+  - name: CityFlow
+    folder: CityFlow
+    type: file
+    options:
+      path: /var/lib/grafana/dashboards
